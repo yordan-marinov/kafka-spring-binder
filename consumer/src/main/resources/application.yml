@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    function:
+      definition: consumer
+    stream:
+      default-binder: kafka
+      bindings:
+        consumer-in-0:
+          destination: kafka-binding-spring
