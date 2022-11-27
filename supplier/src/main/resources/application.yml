@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    function:
+      definition: supplier
+    stream:
+      bindings:
+        supplier-out-0:
+          destination: kafka-binding-spring
+      default-binder: kafka
